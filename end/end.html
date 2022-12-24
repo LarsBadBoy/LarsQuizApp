@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="../app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <div id="glurak" class="sketchfab-embed-wrapper"> <iframe title="charizard" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2bfa8441c87347eb84df8e6574eddb86/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> </p></div>
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Dein Name"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Sichern
+          </button>
+        </form>
+        <a class="btn" href="../game/game.html">Nochmal Spielen</a>
+        <a class="btn" href="../index.html">Startseite</a>
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
+</html>
